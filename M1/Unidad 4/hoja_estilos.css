@@ -1,0 +1,24 @@
+p{
+    color: #511281;
+    font-style: oblique;
+    font-weight: 800;
+}
+label{
+    color: #511281;
+    font-style: oblique;
+    font-weight: 800
+}
+h1{
+    color: #21094E;
+    text-transform: uppercase;
+}
+h2{
+    color:#21094E;
+}
+h3{
+    color:#21094E;
+}
+.destaque{
+    color: #FFC107;
+    font-size: 17px;
+}
