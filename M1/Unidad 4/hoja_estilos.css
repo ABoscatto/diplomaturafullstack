@@ -11,13 +11,15 @@ label{
 h1{
     color: #21094E;
     text-transform: uppercase;
+    font-size: 88px;
+    text-shadow: -1px -1px 18px rgba(167,52,137,1);
 }
 h2{
     color:#21094E;
 }
 h3{
     color:#21094E;
-    font-size: 23px;
+    font-size: 26px;
 }
 .destaque{
     color: #FFC107;
