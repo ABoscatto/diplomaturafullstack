@@ -1,0 +1,65 @@
+.container{
+    background-color: pink;
+    /* background-size: 100%; */
+    display: flex;
+    /* object-fit: cover;
+    object-position: center;
+    flex-wrap: wrap; */
+    border: 2px solid black;
+    flex-direction: column;
+    align-items: flex-end;
+    /* display: inline-block; */
+    position: relative;
+}
+.item1{
+    background-color: red;
+    width: 350px;
+    height: 350px;
+    /* margin: 20px; */
+    font-size: 30px;
+    border: 1px solid black;
+}
+.item2{
+    background-color: blue;
+    width: 350px;
+    height: 350px;
+    /* margin: 20px; */
+    font-size: 30px;
+    border: 1px solid black;
+}
+.item3{
+    background-color: green;
+    width: 350px;
+    height: 350px;
+    /* margin: 20px; */
+    font-size: 30px;
+    border: 1px solid black;
+}
+/* .item img {
+    object-fit: contain;
+} */
+.container .box .imgBox img{  /*this is the code for fitting image*/
+	/* object-fit: cover; */
+	/* height: 300px;
+	width: 270px; */
+	object-position: center center;
+
+}
+h1,h3, h4, p, ol, ul{
+    font-family: 'Sarabun', sans-serif;
+}
+h2{
+    font-family: 'Fuggles', cursive;
+}
+h1{
+    text-transform: uppercase;
+    font-size: 101px;
+}
+.text{
+    color: black;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+}
