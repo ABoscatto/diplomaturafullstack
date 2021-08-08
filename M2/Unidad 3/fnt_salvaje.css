@@ -1,0 +1,33 @@
+h1{
+    font-family: 'Sarabun', sans-serif;
+    font-size: 44;
+    color: black;
+ }
+ #cf {
+    position:relative;
+    height:281px;
+    width:450px;
+    margin:0 auto;
+  }
+  
+  #cf img {
+    position:absolute;
+    left:0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  #cf img.top:hover {
+    opacity:0;
+  }
+
+  #cf h1:hover {
+    color: red;
+  }
+  body{
+    color: black;
+    background-color: #EFB7B7;
+    font-size: 100%;
+  }

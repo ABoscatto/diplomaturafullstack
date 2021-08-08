@@ -1,0 +1,117 @@
+header{
+    font-family: 'Sarabun', sans-serif;
+    font-size: 44px;
+}
+body{
+    color: black;
+    background-color: #FF3D68;
+    font-size: 100%;
+}
+.contenedor{
+    width: 1200px;
+    background-color: #FF6767;
+    margin: auto;
+    overflow: hidden;
+}
+nav{
+    background-color: #A73489;
+    float: left;
+    width: 160px;
+}
+section{
+    background-color: #CD113B;
+    float: left;
+    margin: 0 0 0 25px;
+    width: 400px;
+}
+aside{
+    background-color: #FFA900;
+    display: table-cell;
+    float: right;
+    width: 500px;
+}
+nav ul li a{
+    font-family: 'Sarabun', sans-serif;
+}
+section{
+    font-family: 'Sarabun', sans-serif;
+}
+aside{
+    font-family: 'Sarabun', sans-serif;
+}
+h1, h4{
+    text-align: center;
+}
+/* .box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: center;
+    object-position: center;
+}
+.item{
+    vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+} */
+/* aside, section {
+    display: block;
+}
+#sidebar {
+	width: 280px;
+	float: right;
+} */
+
+@media screen and (min-width: 230px) and (max-width: 800px){
+
+	body {
+		padding:0;
+		margin:0;
+	}
+	.contenedor {
+		background: #FF6767;
+		width:100%;
+	}
+	nav {
+		background: #A73489;
+		float:none;
+		width:100%;
+	}
+    nav ul {
+		margin:0;
+	}
+	nav ul li a {
+		padding: 0.5em;
+		display: block;
+		color:#000;
+	}
+	section {
+		border-top: solid black 0.1em;
+		float:none;
+		padding: 0.9em;
+		width:100%;
+		margin-left:0;
+	}
+	aside {
+		border-top: solid black 0.1em;
+		float:none;
+		padding: 0.9em;
+		width:100%;
+		margin-left:0;
+	}
+    /* @container screen and (min-width: 230px) and (max-width: 800px){
+        .item{
+            display: flex;
+            flex-wrap: wrap;
+        }
+    } */
+    /* #sidebar {
+		width: 30%;
+	}
+	#sidebar .widget {
+		padding: 8% 7%;
+		margin-bottom: 10px;
+	} */
