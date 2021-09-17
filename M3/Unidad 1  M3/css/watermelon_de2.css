@@ -1,0 +1,264 @@
+body{
+    font-family:'Forum', cursive;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+header{
+    background-color: #3D087B;
+    padding: 1em 0;
+}
+
+header h1{
+    color:#FFF338;
+    font-size: 2.5em;
+    font-style: italic;
+    font-weight: 100;
+    display: inline-block;
+    position: relative;
+    bottom: 30px;
+}
+
+nav{
+    background-color: #F43B86;
+    margin-bottom: 2em;
+}
+
+nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    width: 16.3%;
+}
+
+nav ul li a{
+    color: #FFF338;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+    padding: 0.2em 0.4em;
+}
+
+nav ul li a:hover{
+    background-color: #851c46;
+}
+
+footer{
+    background-color: #F43B86;
+    clear: both;
+    color: #FFF338;
+    padding: 3em 0;
+    margin-top: 2em;
+    text-align: center;
+}
+
+nav ul li a.activo{
+    background-color: #FF67E7;
+}
+
+.holder{
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+/* h2{
+    color: #3D087B;
+    font-weight: 400;
+    margin: 0 0 1em;
+} */
+
+.left{
+    float: left;
+}
+
+.right{
+    float: right;
+}
+
+.homeimg{
+    margin-bottom: 1.5em;
+}
+/*
+.homeimg{
+    max-width: 100%;
+} */
+
+.columnas{
+    overflow: hidden;
+}
+/* p{
+    font-size: 0.8em;
+    line-height: 1.2em;
+    color: #3D087B;
+} */
+
+/* .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid #3D087B;
+    border-radius: 0.7em;
+    margin: 1em 0;
+    padding: 1em;
+    overflow: hidden;
+    width: 75%;
+    color: #3D087B;
+    font-size: 1.2em;
+    font-style: italic;
+    font-weight: 500;
+    margin: 0 0 1em;
+    border-bottom: 1px solid #3D087B;
+    padding-bottom: 0.5em;
+} */
+
+.container{
+    /* width: 960px;
+    margin: auto;
+    border: 1px solid #3D087B;
+    border-radius: 0.7em;
+    margin: 1em 0;
+    padding: 1em;
+    overflow: hidden; */
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: minmax(100px, auto) 1fr 1fr;
+    cursor: pointer;
+    /* text-align: center; */
+}
+
+.item{
+    /* align-content: stretch; */
+}
+
+.container img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* .container .item1{
+    background: url(img/marca.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+} */
+/* 
+.item1{
+    width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+} */
+
+.item2{
+    background-color: #851c46;
+}
+
+.item3{
+    background-color: #FF67E7;
+}
+
+.item4{
+    background-color: #FFF338;
+}
+
+.item5{
+    background-color: aqua;
+}
+
+.item6{
+    background-color: #991a86;
+}
+/* 
+.image {
+    position: relative;
+    width: auto;
+}
+
+.image__img{
+    display: block;
+    width: 100%;
+}
+
+.image__overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, 0.6);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.25s;
+}
+
+.image__overlay--blur {
+    backdrop-filter: blur(5px);
+}
+
+.image__overlay > * {
+    transform: translateY(20px);
+    transition: transform 0.25s;
+}
+
+.image__overlay:hover {
+    opacity: 1;
+}
+
+..image__overlay:hover > * {
+    transform: translateY(0);
+}
+
+.image__title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.image__description {
+    font-size: 1.25em;
+
+} */
+
+/* .text{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 1vw;
+
+} */
+
+.label p{
+    line-height: 1rem;
+    padding: 0 1rem;
+    margin: 0;
+    color: white;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    height: 2rem;
+    /* margin-top: -2rem; */
+    position: relative;
+}
+
+.label h4{
+    line-height: 1rem;
+    padding: 0 1rem;
+    margin: 0;
+    color: white;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    height: 2rem;
+    /* margin-top: -2rem; */
+    position: relative;
+}
