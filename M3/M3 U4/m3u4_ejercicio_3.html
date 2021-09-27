@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M3 U4 Ejercicio 3</title>
+</head>
+
+<body>
+    <script>
+        var alumnos = [
+            {
+                nombre: "Juan Gómez",
+                nota: 7
+            }, {
+                nombre: "Pedro Rodríguez",
+                nota: 4
+            }, {
+                nombre: "Roxana García",
+                nota: 8
+            }, {
+                nombre: "Luciano López",
+                nota: 5
+            }, {
+                nombre: "Fernanda Gimenez",
+                nota: 6
+            }, {
+                nombre: "Florencia Martínez",
+                nota: 10
+            }, {
+                nombre: "Raúl Sánchez",
+                nota: 7
+            }, {
+                nombre: "Sandra Figueroa",
+                nota: 8
+            }
+        ];
+        var aprobados = new Array();
+
+        for (var i = 0; i < alumnos.length; i++) {
+            if (alumnos[i].nota >= 7) {
+                aprobados.push(alumnos[i]);
+            }
+        }
+        console.log(alumnos);
+        console.log(aprobados);
+    </script>
+</body>
+
+</html>

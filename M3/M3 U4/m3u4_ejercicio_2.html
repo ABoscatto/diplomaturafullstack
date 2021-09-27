@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M3 U4 Ejercicio 2</title>
+</head>
+
+<body>
+    <h1 id="h1">Ingrese una o varias palabras</h1>
+
+    <textarea name="StringCounter" id="txtA" cols="20" rows="3"></textarea>
+    <button name="btn_contar" id="btn">Contar</button>
+
+    <script>
+        document.getElementById("btn").addEventListener("click", countChar);
+
+        function countChar() {
+            var txtInput = document.getElementById("txtA").value;
+            console.log(txtInput);
+            // txtInput.join(" ");
+            txtInput.trim();
+            console.log(txtInput);
+            var chars = txtInput.length;
+            console.log(chars);
+            document.getElementById("h1").innerHTML = "Cantidad de caracteres: " + chars;
+        }
+
+    </script>
+</body> 
+
+</html>
